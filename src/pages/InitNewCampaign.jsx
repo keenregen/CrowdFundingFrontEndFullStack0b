@@ -50,8 +50,8 @@ const InitNewCampaign = () => {
       {address ? <form onSubmit={handleSubmit} className="w-full mt-[65px] flex flex-col gap-[30px]">
         <div className="flex flex-wrap gap-[40px]">
           <FormField
-            labelName="Your Name *"
-            placeholder="Your Name"
+            labelName="Your Name Your Organization's Name *"
+            placeholder="Your Name or Your Organization's Name"
             inputType="text"
             value={form.name}
             handleChange={(e) => handleFormFieldChange('name', e)}
