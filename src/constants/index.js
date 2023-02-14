@@ -2,29 +2,17 @@ import { initNewCampaign, dashboard, logout, payment, profile, withdraw } from '
 
 export const navlinks = [
   {
-    name: 'dashboard',
+    name: 'Home',
     imgUrl: dashboard,
     link: '/',
   },
   {
-    name: 'campaign',
+    name: 'Start A Campaign',
     imgUrl: initNewCampaign,
     link: '/init-new-campaign',
   },
   {
-    name: 'payment',
-    imgUrl: payment,
-    link: '/',
-    disabled: true,
-  },
-  {
-    name: 'withdraw',
-    imgUrl: withdraw,
-    link: '/',
-    disabled: true,
-  },
-  {
-    name: 'profile',
+    name: 'Profile',
     imgUrl: profile,
     link: '/profile',
   },
