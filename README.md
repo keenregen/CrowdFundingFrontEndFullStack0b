@@ -1,1 +1,2 @@
-# FullStack CrowdFunding DApp FrontEnd (DApp Study 0b)
+# DApp Study 0b
+## FullStack CrowdFunding DApp FrontEnd
